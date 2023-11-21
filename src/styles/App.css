@@ -10,3 +10,27 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.app{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+.textarea {
+    height: 100%;
+    width: 50%;
+}
+.preview {
+    height: 100%;
+    width: 50%;
+    overflow-y: auto;
+}
